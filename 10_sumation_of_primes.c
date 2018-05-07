@@ -2,8 +2,7 @@
 #include<stdlib.h>
 
 
-long long* prime_index(long long n)
-{
+long long* prime_index(long long n){
     int* is_multiple = (int *)calloc(n,sizeof(int)); //init to zero
     long long* primes = (long long *)calloc(n,sizeof(long long)); //not init to zero, is faster
 
